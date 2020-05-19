@@ -1,0 +1,381 @@
+<%- include("header") -%>
+<div class="arrow">
+  <a href="#proj">
+    <i class="fas fa-chevron-down fa-2x" style="color: white;"></i>
+  </a>
+</div>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:black">
+  <div class="container">
+
+
+
+    <!-- navbar -->
+    <a class="navbar-brand" href="#">
+      <img src="images/logow.png" alt="" style="width: 1.5rem;" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home
+
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#proj" data-target=".navbar-collapse.in">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about" data-target=".navbar-collapse.in">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#certificates" data-target=".navbar-collapse.in">Certificates</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link getintouchlink" style="font-weight:bold" data-target=".navbar-collapse.in"
+            href="#contact">Contact
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+<!-- home -->
+<section id="homesec">
+  <video class="videobg" src="video/homevid.mp4" autoplay muted loop></video>
+  <div id="home">
+    <h1 class="home-title">
+      Hi, I am Daehan Hong
+    </h1>
+    <p class="home-text">
+      Web Developer || Software Developer || UI/UX Designer || Competitive Programmmer
+      <br>Computer Program Student at Georgian College
+    </p>
+    <!-- sociallinks -->
+    <div class="links">
+      <a target="_blank" class="home-icons" href="https://www.instagram.com/coffee.canada/">
+        <i class="fab fa-instagram fa-lg"></i>
+      </a>
+      <a target="_blank" class="home-icons" href="https://github.com/DaehanHong">
+        <i class="fab fa-github fa-lg"></i>
+      </a>
+      <a target="_blank" class="home-icons home-icons-last" href="https://www.linkedin.com/in/daehan-hong-303875164/">
+        <i class="fab fa-linkedin-in fa-lg"></i>
+      </a>
+    </div>
+    <a class="btn btn-primary btn-lg homebtn" href="#contact">Say Hello!
+
+    </a>
+    <a class="btn btn-outline-light btn-lg homebtn" target="_blank"
+      href="https://drive.google.com/file/d/1bzfiUC16l_Qro-7FqcYULwHPqDVJY88U/view?usp=sharing">Resume
+      <i class="fas fa-download"></i>
+    </a>
+  </div>
+
+</section>
+
+<section id="projectsabt">
+
+  <section id="proj">
+    <h2 class="heading">Web Development Projects</h2>
+    <div class="card-deck">
+      <div class="card">
+        <img src="images/webapp.png" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">A Travel Agency Web App</h5>
+          <div style="margin-bottom: 10px;">
+            <span class="badge badge-info">HTML</span>
+            <span class="badge badge-info">CSS (Bootstrap)</span>
+            <span class="badge badge-info">JS</span>
+            <span class="badge badge-info">Node.js</span>
+            <span class="badge badge-info">Express</span>
+            <span class="badge badge-info">Mongo DB Atlas</span>
+          </div>
+          <p class="card-text"> Web application based on JavaScript framework.
+            In addition, I provide itineraries and maps based on well-organized schedules. 
+            Also, you can check travelers' satisfaction through reviews.
+          </p>
+          <div class="mt-auto">
+            <a href="" class="btn btn-primary  disabled">View Code</a>
+            <a href="" class="btn btn-outline-primary disabled">Live Preview</a>
+          </div>
+          <small id="emailHelp" class="text-muted">Working on in! Coming soon</small>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/Angular.png" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Restaurant Web App</h5>
+          <div style="margin-bottom: 10px;">
+            <span class="badge badge-info">Node.js</span>
+            <span class="badge badge-info">Angular</span>
+            <span class="badge badge-info">RxJS</span>
+            <span class="badge badge-info">API</span>
+            <span class="badge badge-info">GIT</span>
+          </div>
+          <p class="card-text">Restaurant Web Application where you can check menus, restaurant locations, etc., 
+            and provide reservations and information about restaurant.
+          </p>
+          <div class="mt-auto">
+            <a target="_blank" href="https://github.com/DaehanHong/Front-End-JavaScript-Frameworks-Angular"
+              class="btn btn-primary">View Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/Farm.png" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Web Grocery Market</h5>
+          <div style="margin-bottom: 10px;">
+            <span class="badge badge-info">HTML</span>
+            <span class="badge badge-info">CSS (Bootstrap)</span>
+            <span class="badge badge-info">JS</span>
+            <span class="badge badge-info">Node.js</span>
+            <span class="badge badge-info">Mongo DB Compass</span>
+          </div>
+          <p class="card-text"> This is a web grocery store based on Node.js.
+            You can see what ingredients are sold and how much they are. 
+            Moreover, users can order online. 
+          </p>
+          <div class="mt-auto">
+            <a target="_blank" href="https://github.com/DaehanHong/Node-Farm" target="_blank" class="btn btn-primary">View Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a target="_blank" href="https://github.com/DaehanHong" class=" btn btn-outline-primary projects-btn">View More Projects</a>
+
+    <h2 class="heading">Other Projects</h2>
+    <div class="card-deck">
+
+      <div class="card">
+        <img src="images/python.png" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Rice Rocks Game</h5>
+          <div style="margin-bottom: 10px;">
+            <span class="badge badge-info">Python</span>
+          </div>
+          <p class="card-text">Games made in Python. 
+            It is a 2D game that can be used with the keyboard arrow keys and the space bar.
+            Great sound effects, and need fine control to avoid meteorites.
+          </p>
+          <div class="mt-auto">
+            <a target="_blank" href="http://www.codeskulptor.org/#user46_EhnQBA0dJd_0.py"
+              class="btn btn-primary">View Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/Scrabble.png" class="card-img-top" alt="...">
+        <div class="card-body  d-flex flex-column">
+          <h5 class="card-title">Scrabble points Generator</h5>
+          <div style="margin-bottom: 10px;">
+            <span class="badge badge-info">Java</span>
+            <span class="badge badge-info">Java FX</span>
+          </div>
+          <p class="card-text">A JavaFX application named “Scrabble points Generator”.
+            The application will allow the user to TYPE in a word and it will calculate how many points that word is 
+            using the scrabble point system.
+          </p>
+          <div class="mt-auto">
+            <a target="_blank" href="https://github.com/DaehanHong/Scrabble-points-Generator/tree/master/application"
+              class="btn btn-primary">View Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/weatherLamp.png" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Weather Lamp</h5>
+          <div style="margin-bottom: 10px;">
+            <span class="badge badge-info">Arduino</span>
+          </div>
+          <p class="card-text"> This is one of the Arduino projects, Weather Lamp. 
+            Manufactured a lamp expressing the weather every day by bringing WI-FI weather information to Arduino.
+            Still in development to add more useful features such as voice recognition.  
+          </p>
+          <div class="mt-auto">
+            <a target="_blank" href="https://www.youtube.com/watch?v=_xZdl8X8QJc" target="_blank" class="btn btn-primary">Live Preview</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a target="_blank" style="margin-bottom: 2rem;" href="https://github.com/DaehanHong"
+      class=" btn btn-outline-primary projects-btn">View More Projects</a>
+  </section>
+
+  <hr>
+  <section id="about">
+    <h2 class="heading">About Me</h2>
+    <p class="home-text">
+      An individual who is eager to learn and explore new fields of life and technology, with good listening skills
+      and fast learning abilities. Because of the challenging personality, I believe I can come up with fresh ideas and bring a new perspective to the table. 
+      Therefore, I can demonstrate creative thinking to enhance the development of new projects. In addition, I am responsible, flexible, and trustworthy. 
+      I have not only a strong ability to work independently in high-quality projects, I am but also attentive to details, hard-working, managed time to meet work project deadlines.
+    </p>
+    <samp>
+      <pre>
+"me" : 
+{
+  "Name" : "Daehan Hong",
+  
+  "College" : "Georgian College",
+  
+  "Stream" : "Computer Programming",
+  
+  "Skills" : {
+    "Interest" :  ["Web Development (MEAN Stack)", 
+                  "UI/UX Design",
+                  "Learning new Langauges"],
+
+    "Languages" : ["C++", "C#", "ASP.NET",
+                  "HTML", "CSS", "JavaScript", "JavaScript Framework"
+                  "Python", "Java", "MySQL"],
+
+    "Softwares" : ["Photoshop", 
+                  "Illustrator", 
+                  "Git"]
+  }
+}
+        </pre>
+    </samp>
+  </section>
+  <hr>
+
+  <section id="certificates">
+    <h2 class="heading">Certificates</h2>
+    <table>
+      <tr>
+        <th>Course Name</th>
+        <th>The Certifying Organization</th>
+      </tr>
+      <tr>
+        <td>Node.js, Express, MongoDB & More: The Complete Bootcamp 2020</td>
+        <td>Udemy</td>
+      </tr>
+      <tr>
+        <td>User Experience Design Essentials – Adobe XD UI UX Design</td>
+        <td>Udemy</td>
+      </tr>
+      <tr>
+        <td>The Complete 2020 Web Development Bootcamp</td>
+        <td>Udemy</td>
+      </tr>
+      <tr>
+        <td>Front-End Web UI Frameworks and Tools: Bootstrap 4</td>
+        <td>Coursera</td>
+      </tr>
+      <tr>
+        <td>Front-End JavaScript Frameworks: Angular</td>
+        <td>Coursera</td>
+      </tr>
+      <tr>
+        <td>Multiplatform Mobile App Development: Ionic and Cordova</td>
+        <td>Coursera</td>
+      </tr>
+      <tr>
+        <td>Multiplatform Mobile App Development with NativeScript</td>
+        <td>Coursera</td>
+      </tr>
+      <tr>
+        <td>Server-side Development with NodeJS, Express and MongoDB</td>
+        <td>Coursera</td>
+      </tr>
+      <tr>
+        <td>Algorithmic thinking</td>
+        <td>Coursera</td>
+      </tr>
+      <tr>
+        <td>Principles of Computing</td>
+        <td>Coursera</td>
+      </tr>
+      <tr>
+        <td>An Introduction to Interactive Programming in Python</td>
+        <td>Coursera</td>
+      </tr>
+      <tr>
+        <td>Programming Foundations with JavaScript, HTML and CSS</td>
+        <td>Coursera</td>
+      </tr>
+      <tr>
+        <td>Java Programming: Solving Problems with Software</td>
+        <td>Coursera</td>
+      </tr>
+      <tr>
+        <td>Java Programming: Arrays, Lists, and Structured Data</td>
+        <td>Coursera</td>
+      </tr>
+      <tr>
+        <td>Java Programming: Principles of Software Design</td>
+        <td>Coursera</td>
+      </tr>
+      <tr>
+        <td>Java Programming: Build a Recommendation System</td>
+        <td>Coursera</td>
+      </tr>
+      <tr>
+        <td>Learn Python Programming Masterclass</td>
+        <td>Udemy</td>
+      </tr>
+      <tr>
+        <td>Java Programming Masterclass for Software Developers</td>
+        <td>Udemy</td>
+      </tr>
+    </table>
+  </section>
+
+  <hr>
+  <section id="contact">
+    <h2 class="heading">Get in touch</h2>
+    <h5 class="subHeading">Please feel free to contact me through email, phone, and social media 😀</h5>
+    <div class="contactMe">
+      <p><i class="fas fa-envelope"></i> : 200307118@student.georgianc.on.ca</p>
+      <p><i class="fas fa-phone"></i> : (705) 970-7312</p>
+      <p><strong><i>Social Media:</i></strong>
+        <a target="_blank" class="contact-icons" href="https://www.facebook.com/daehan.hong.1/">
+          <i class="fab fa-facebook fa-lg"></i>
+        </a>
+        <a target="_blank" class="contact-icons" href="https://www.instagram.com/coffee.canada/">
+          <i class="fab fa-instagram fa-lg"></i>
+        </a>
+        <a target="_blank" class="contact-icons contact-icons-last" href="https://www.linkedin.com/in/daehan-hong-303875164/">
+          <i class="fab fa-linkedin-in fa-lg"></i>
+        </a>
+      </p>
+    </div>
+
+    <form action="/" method="post">
+      <div class="form-group">
+        <h5 class="subHeading">Leave Me A Message</h5>
+        <label for="InputEmail1">Name</label>
+        <input name="iname" type="text" class="form-control" id="InputName" aria-describedby="nameHelp"
+          placeholder="">
+      </div>
+      <div class="form-group">
+        <label for="InputEmail">Email</label>
+        <input name="iemail" type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp"
+          placeholder="">
+        <small id="emailHelp" class="form-text text-muted">I will never share your email with anyone else. I
+          promise!</small>
+      </div>
+      <div class="form-group">
+        <label for="FormControlTextarea">Message</label>
+        <textarea name="imessage" class="form-control" id="FormControlTextarea" rows="3"
+          placeholder=""></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </section>
+  <hr>
+  <P class="credit">
+    Created by Daehan Hong <br>
+    © Copyright 2020 Daehan Hong (All Rights Reserved)
+  </P>
+  <%- include("footer") -%>
